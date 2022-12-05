@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <form>
+    <div class="wrapper">
+        <div class="title">
+            Registration Form
+        </div>
+      <!--First name-->  
+      <div class="form">
+        
+          <div class="inputfield">
+          <label>First Name</label>
+          <i class="fa fa-user icon"></i>
+          <input type="text" class="input" id="name"  placeholder="Username" >
+          
+        </div>
+    <!--Last name-->
+    <div class="inputfield">
+        <label>Last Name</label>
+        <i class="fa fa-user icon"></i>
+        <input type="text" class="input"  placeholder="Lastname"required >
+      </div>
+
+      <!--email-->
+      <div class="inputfield">
+        <label>Email Address</label>
+        <i class="fa fa-envelope-square icon"></i>
+        <input type="text" class="input"  placeholder="enter your email"required>
+      </div>
+
+     <!--password-->
+     <div class="inputfield">
+        <label>Password</label>
+        <i class="fa fa-key icon"></i>
+        <input type="password" class="input"  placeholder="enter your password"required>
+      </div>
+
+      <!--Gender-->
+
+      <div class="inputfield">
+        <label>Gender</label>
+
+        <div class="custom_select">
+            <select>
+                <option value="">select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+      </div>
+
+     <!--dob-->
+     <div class="inputfield">
+     <label> DOB</label>
+     <input type="date" class="input"  placeholder="enter your dob"required>
+    </div>
+
+    <!--choosen file-->
+    <div class="inputfield">
+      <label> File chosen</label>
+      <input type="file" class="custom-button">
+     </div>
+
+
+      <!--qualify-->
+      <div class="inputfield">
+        <label>Qualification</label>
+        <div class="custom_qualify">
+            <select>
+                <option value="">select</option>
+                <option value="applicaton knowledge">Applicaton knowledge</option>
+                <option value="design">Design</option>
+                <option value="marketing">Marketing</option>
+                <option value="creativity">Creativity</option>
+            </select>
+        </div>
+      </div>
+
+       <!--Phone number-->
+       <div class="inputfield">
+        <label>Phone Number</label>
+        <i class="fa fa-phone icon"></i>
+        <input type="text" class="input"  placeholder="enter your phone number" required>
+      </div>
+
+      <!--Address-->
+      <div class="inputfield">
+        <label>About Yourself</label>
+        <textarea class="textarea"  placeholder="type something...."></textarea>
+      </div>
+
+      <!--submit-->
+      
+          <!--<button type="submit" class="btn">Register</button>-->
+          <input type="submit" value=Register class="btn">
+      </div>
+    
+    </div>
+    
+  </form>
+
+
+
+
+</body>
+</html>
